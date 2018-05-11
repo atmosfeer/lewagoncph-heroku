@@ -5,6 +5,8 @@
   <%= @article.title %>
 </p>
 
+<%= cl_image_tag(@article.photo, width: 800, height: 600) %>
+
 <p>
   <strong>Body:</strong>
   <%= @article.body %>
